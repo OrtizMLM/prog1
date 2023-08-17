@@ -22,5 +22,6 @@ pruebaf = regex1.sub('', prueba)
 sincaste = pruebaf.replace("$","")
 valor = int(sincaste)
 print(valor)
+g = 9
 
 
