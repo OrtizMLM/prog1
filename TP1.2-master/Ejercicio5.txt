@@ -1,0 +1,27 @@
+a)	A = input(nombre, “¿Cuál es tu canción favorita?”) 
+Nombre no es una variable valida en un input
+
+Solucion: A= input("¿Cual es tu cancion favorita?")
+            print(f"tu cancion es: {A})
+
+b)	precio = input(“Precio: “)
+total = precio + (precio * 0.1) 
+Tiene que declarar que es Float xq por defecto es INT y no acepta 0.1
+
+Solucion: precio = float(input("Precio: "))
+
+c)	edad = int(input(“Edad: “))
+print(tu edad es, edad)
+Faltan las comillas el print tiraria error
+
+Solucion: print(f"tu edad es: {edad}")
+
+d)	edad = int(input(“Edad: “))
+print(“Veamos si tu edad es 18…”, edad=18)
+No se puede declarar la edad en el print de nuevo, esta mal hecha la comparativa
+
+Solucion: edad = int(input("Ingresa edad: "))
+            if edad = 18
+            print(f"Tienes 18 años!")
+            else
+            print(f"No tienes 18 años")
