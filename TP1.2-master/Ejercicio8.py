@@ -10,4 +10,4 @@ sueldo = float(input("Ingrese sueldo base: $"))
 
 comision = (10 * sueldo) / 100 # Formula para calcular % fijo del 10%
 
-print(f"La comision del 10% de ${sueldo} es: ${round(comision,2)}")
+print(f"La comision del 10% de ${sueldo} por las tres ventas es: $",comision*3)
