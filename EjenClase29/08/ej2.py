@@ -31,3 +31,4 @@ while num > 0:
     num = int(input("Ingrese un numero entero positivo:"))
 
 print(f"{total_pares} numeros pares leidos en total y {total_impares} numeros impares leidos en total")
+print("Fin del programa")

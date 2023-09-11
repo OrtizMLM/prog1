@@ -11,9 +11,15 @@
 vege = str(input("Desea que su pizza sea vegetariana? s/n: "))
 
 if vege.lower() == "s":
-    ingre = str(input("Seleccione el ingrediente (Pimiento o Tofu): "))
-    print (f"La pizza vegetariana se prepara con los siguientes ingredientes: mozzarella, tomate y {ingre}")
+        ingre = str(input("Seleccione el ingrediente (Pimiento o Tofu): "))
+        if ingre == "Pimiento" or ingre == "Tofu":
+            print (f"La pizza vegetariana se prepara con los siguientes ingredientes: mozzarella, tomate y {ingre}")
+        else:  
+            print("Ingrese los ingredientes correctamente")
 else:
-    ingre = str(input("Seleccione el ingrediente (Peperoni, Jamon y Salmon): "))
-    print (f"La pizza no vegetariana se prepara con los siguientes ingredientes: mozzarella, tomate y {ingre}")
-
+        ingre = str(input("Seleccione el ingrediente (Peperoni, Jamon y Salmon): "))
+        if ingre == "Peperoni" or ingre == "Jamon" or ingre == "Salmon":
+            print (f"La pizza vegetariana se prepara con los siguientes ingredientes: mozzarella, tomate y {ingre}")
+        else:  
+            print("Ingrese los ingredientes correctamente")
+        

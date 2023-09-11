@@ -2,7 +2,7 @@
 
 # Hacer otra versión del programa, pero esta vez almacenado todo en una única variable con formato DDMMAAA.
 
-fecha = str(input("Ingrese el dia de su nacimiento: "))
+fecha = str(input("Ingrese el dia de su nacimiento en FORMATO DDMMAAAA: "))
 dia = fecha[0:2]
 mes = fecha[2:4]
 anio = fecha[4:8]
