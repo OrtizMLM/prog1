@@ -8,9 +8,11 @@ def inp ():
 
 
 def verif (dni):
-    if len(dni) == 7:
+    if len(dni) == 7 or len(dni) == 8:
+        print("True")
         return True
     else:
+        print("False")
         return False
         
 inp()
