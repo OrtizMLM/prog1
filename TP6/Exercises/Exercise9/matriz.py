@@ -7,5 +7,3 @@ def mat(row, col):
         for j in range(col):
             matriz[i][j] = val_only.pop()
     return matriz
-
-    # Llenar la matriz con los valores aleatorios de la li
