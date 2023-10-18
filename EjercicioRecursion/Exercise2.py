@@ -1,0 +1,1 @@
+#2 - Escriba un programa que ingresando un numero devulva el numero con todos sus digitos invertidos.
