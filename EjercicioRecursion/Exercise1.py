@@ -10,7 +10,7 @@ def time(flag):
     if option == 1:
         flag += 3
         print(f"Se demoro en volver 3 min, total de tiempo: {flag}")
-        return (flag)
+        return time(flag)
     if option == 2:
         flag += 5
         print(f"Se tardo en volver 5 minutos, total del tiempo: {flag}")
