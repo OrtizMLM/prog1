@@ -6,7 +6,7 @@
 #puede haber hecho más de una compra en el mes, por lo que la función debe retornar una estructura que
 #contenga cada domicilio una sola vez.
 
-from funciones_2 import *
+from fun2 import *
 
 
 datos=[("ailen bossio",13,1500,"tacuari-579"),("juan busso",28,2000,"honorio-174")]
